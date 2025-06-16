@@ -8,6 +8,7 @@ async def main():
     GRID_SIZE = 4
     custom_map = True
 
+    # for testing
     # Set custom_map to False to generate random map
     mdp = WumpusWorldMDP(size=GRID_SIZE, custom_map=custom_map)
 
